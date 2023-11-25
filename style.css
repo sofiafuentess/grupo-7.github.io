@@ -123,7 +123,7 @@ h3{
     letter-spacing: normal;
     font-family: var(--main-font-family);
   font-style: normal;
-  font-size: 50px;
+  font-size: 40px;
   color: var(--main-fonts-color);
   text-shadow: 0px 0px 40px var(--main-decor-color);
 }
@@ -132,11 +132,27 @@ h4{
     letter-spacing: normal;
     font-family: var(--main-font-family);
 	font-style: normal;
-	font-size: 50px;
+	font-size: 30px;
 	color: var(--main-fonts-color);
 	text-shadow: 0px 0px 40px var(--main-decor-color);
 }
 
+h5{
+  padding-bottom: 15px;
+    letter-spacing: normal;
+    font-family: var(--main-font-family);
+  font-style: normal;
+  color: var(--main-fonts-color);
+  text-shadow: 0px 0px 40px var(--main-decor-color);
+}
+h6{
+  padding-bottom: 15px;
+    letter-spacing: normal;
+    font-family: var(--main-font-family);
+  font-style: normal;
+  color: var(--main-fonts-color);
+  text-shadow: 0px 0px 40px var(--main-decor-color);
+}
 
 /*──────────────────
       projects
@@ -215,7 +231,7 @@ h4{
 #contact{
 	margin: auto;
 	padding-bottom: 20px;
-	height: 600px;
+	height: 100%;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -230,7 +246,41 @@ h4{
 	font-size:1.2rem;
 	font-family: var(--main-font-family);
 }
+.contenedor {
+    display: flex;
+    align-items: center; /* Alinea los elementos verticalmente al centro */
+}
+img {
+  max-width: 70%;
+  margin-right: 20px;
+  
+}
 
+p {
+    margin-left: 20px; /* Espaciado a la izquierda del párrafo para separarlo de la imagen */
+}
+/*──────────────────
+      Contact
+──────────────────*/
+
+#contact_2{
+  margin: auto;
+  padding-bottom: 20px;
+  height: 100;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: var(--main-fonts-color);
+  background-color: #9163cb;
+}
+
+#contact_2 p{
+  padding:10px;
+  text-align:center;
+  font-size:1.2rem;
+  font-family: var(--main-font-family);
+}
 /*────────────────── 
        footer
 ──────────────────*/
