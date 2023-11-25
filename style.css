@@ -74,7 +74,7 @@ a.nav-link{
 }
 
 .nav-link:hover {
-	color: #000000;
+	color: #fffcfc;
  background: #824bb6;
 }
 
@@ -167,7 +167,7 @@ h6{
     justify-content: center;
 	text-align:center;
 	color: var(--main-fonts-color);
-  background-color: #a06cd5;
+  background-color: #b185db;
 }
 #projects h3{
     padding-top: 0px;
@@ -232,7 +232,7 @@ h6{
 	align-items: center;
 	justify-content: center;
 	color: var(--main-fonts-color);
-  background-color: #9163cb;
+  background-color: #b185db;
 }
 	
 #contact p{
@@ -267,7 +267,7 @@ p {
   align-items: center;
   justify-content: center;
   color: var(--main-fonts-color);
-  background-color: #9163cb;
+  background-color: #b185db;
 }
 
 #contact_2 p{
